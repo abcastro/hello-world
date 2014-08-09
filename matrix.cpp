@@ -1,6 +1,8 @@
 #include <iostream>
 #include <queue>
 
+// find a char path in a char matrix
+
 bool tryPath(char m[10][10], int x, int y, int i, int j, char *a, int n) {
     int k = i;
     int l = j;

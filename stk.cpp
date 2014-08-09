@@ -2,6 +2,8 @@
 
 #include "stack.h"
 
+// testing my stack library, testing exceptions
+
 int main() {
     mystack<int> ms;
 

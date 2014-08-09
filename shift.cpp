@@ -1,6 +1,8 @@
 #include <iostream>
 #include <bitset>
 
+// simple bit shifts
+
 int main() {
     unsigned int a;
     std::bitset<32> x;

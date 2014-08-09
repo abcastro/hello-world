@@ -1,6 +1,8 @@
 #include <iostream>
 #include <iterator>
 
+// find all palindromes
+
 int checkPal(std::string s, std::string::iterator it1, std::string::iterator it2) {
     int d = 0;
     while ((*(it1-d)) == (*(it2+d))) {

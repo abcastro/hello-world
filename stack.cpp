@@ -2,6 +2,8 @@
 
 #include "stack.h"
 
+// stack library using templates
+
 template <class T>
 mystack<T>::mystack() {
     top = 0;

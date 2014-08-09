@@ -1,5 +1,7 @@
 #include <iostream>
 
+// binary search
+
 int main(int argc, char *argv[]) {
     char arr[13] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm' };
 

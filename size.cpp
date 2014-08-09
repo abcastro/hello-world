@@ -1,5 +1,7 @@
 #include <iostream>
 
+// checking some sizes
+
 int main() {
     std::cout << "char " << sizeof(char) << std::endl;
     std::cout << "short " << sizeof(short) << std::endl;

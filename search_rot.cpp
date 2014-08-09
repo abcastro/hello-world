@@ -1,6 +1,8 @@
 #include <iostream>
 #include <sstream>
 
+// rotaded binary search
+
 void print_arr(char *a, int n) {
     for (int i = 0; i < n; i++) {
         std::cout << a[i] << " ";

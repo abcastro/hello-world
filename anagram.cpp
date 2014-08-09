@@ -4,6 +4,8 @@
 #include <map>
 #include <set>
 
+// find all anagrams from a list of words
+
 std::string sortWord(std::string w) {
     std::string sorted = w;
     std::sort(sorted.begin(), sorted.end());

@@ -1,6 +1,8 @@
 #include <iostream>
 #include <sstream>
 
+// rotate an array by d positions
+
 void print_arr(char *a, int n) {
   for (int i = 0; i < n; i++) {
     std::cout << a[i] << " ";

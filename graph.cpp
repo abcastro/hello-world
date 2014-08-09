@@ -3,6 +3,8 @@
 #include <list>
 #include <queue>
 
+// transverse directed graph
+
 class Node {
     public:
     int id;

@@ -3,6 +3,8 @@
 
 #include <math.h>
 
+// float bit manipulation
+
 int main() {
     float a;
     std::bitset<32> x;

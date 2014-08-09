@@ -1,6 +1,8 @@
 #include <iostream>
 #include <queue>
 
+// binary search tree and transverse algorithms
+
 class Node {
     private:
         Node *left;
