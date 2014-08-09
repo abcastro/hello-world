@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 
-// hanoi tower - 8/8/2014 18:13
+// hanoi tower - structured version
 
 void PrintHanoi(std::stack<int> t1, std::stack<int> t2, std::stack<int> t3) {
     int s1 = t1.size();

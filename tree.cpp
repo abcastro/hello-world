@@ -49,6 +49,32 @@ class Node {
             }
         }
 
+        int maxDepth() {
+            int l = 0;
+            int r = 0;
+
+            if (this->left) {
+                l = this->left->maxDepth();
+            }
+            if (this->right) {
+                r = this->right->maxDepth();
+            }
+            return std::max(l, r) + 1;
+        }
+
+        int minDepth() {
+            int l = 0;
+            int r = 0;
+
+            if (this->left) {
+                l = this->left->minDepth();
+            }
+            if (this->right) {
+                r = this->right->minDepth();
+            }
+            return ((r == 0 or l == 0) ? l + r : std::min(l, r)) + 1;
+        }
+
         void print_pre() {
             std::cout << this->value << " ";
             if (this->left)
@@ -99,7 +125,7 @@ class Node {
 
 int main() {
     Node n(20);
-    
+
     n.insert(24);
     n.insert(12);
     n.insert(27);
@@ -121,16 +147,29 @@ int main() {
     n.insert(21);
     n.insert(28);
 
+    std::cout << "pre ";
     n.print_pre();
     std::cout << std::endl;
+
+    std::cout << "inr ";
     n.print_rev_in();
     std::cout << std::endl;
+
+    std::cout << "ino ";
     n.print_in();
     std::cout << std::endl;
+
+    std::cout << "pos ";
     n.print_post();
     std::cout << std::endl;
+
+    std::cout << "bth ";
     n.print_breadth();
     std::cout << std::endl;
+
+    std::cout << "max " << n.maxDepth() << std::endl;
+
+    std::cout << "min " << n.minDepth() << std::endl;
 
     return 0;
 }
