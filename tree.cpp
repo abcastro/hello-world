@@ -1,5 +1,6 @@
 #include <iostream>
 #include <queue>
+#include <stack>
 
 // binary search tree and transverse algorithms
 
@@ -77,6 +78,22 @@ class Node {
             return ((r == 0 or l == 0) ? l + r : std::min(l, r)) + 1;
         }
 
+        void print_it_pre() {
+            std::stack<Node*> s;
+
+            s.push(this);
+
+            while (not s.empty()) {
+                Node *n = s.top();
+                s.pop();
+                std::cout << n->value << " ";
+                if (n->right)
+                    s.push(n->right);
+                if (n->left)
+                    s.push(n->left);
+            }
+        }
+
         void print_pre() {
             std::cout << this->value << " ";
             if (this->left)
@@ -151,6 +168,10 @@ int main() {
 
     std::cout << "pre ";
     n.print_pre();
+    std::cout << std::endl;
+
+    std::cout << "pri ";
+    n.print_it_pre();
     std::cout << std::endl;
 
     std::cout << "inr ";
