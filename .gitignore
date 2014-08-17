@@ -3,17 +3,20 @@
 *.swp
 
 fbinterview.cpp
+azinterview.cpp
 
 anagram
 area
 bin
 bitsub
 float
+gensub
 graph
 hanoi
 inside
 matrix
 pal
+perm
 qsort
 rot
 search_rot
@@ -21,4 +24,5 @@ shift
 size
 sqrt
 strperm
+subsum
 tree
