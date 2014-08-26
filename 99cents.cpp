@@ -1,5 +1,7 @@
 #include <iostream>
 
+// how much coins need to give change from 1 to 99 cents
+
 int coins[] = { 50, 25, 10, 5, 1 };
 int NUM_COINS = 5;
 
