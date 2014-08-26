@@ -4,11 +4,15 @@
 
 fbinterview.cpp
 azinterview.cpp
+azinterview2.cpp
 
+99cents
 anagram
 area
 bin
+binheap
 bitsub
+dupl
 float
 gensub
 graph
@@ -19,6 +23,7 @@ pal
 perm
 qsort
 rot
+rpn
 search_rot
 shift
 size
@@ -26,5 +31,3 @@ sqrt
 strperm
 subsum
 tree
-rpn
-binheap
