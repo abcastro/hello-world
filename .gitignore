@@ -11,8 +11,12 @@ anagram
 area
 bin
 binheap
+binsearch
+bitpalin
 bitsub
+comb
 dupl
+endian
 float
 gensub
 graph
@@ -29,6 +33,7 @@ shift
 size
 sqrt
 strperm
+strperm2
 subsum
+tel
 tree
-bitpalin
